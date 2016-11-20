@@ -1,5 +1,5 @@
 # scope
-Facilitates cleanup of arbitrary resources by an agnostic owners, handling multi-ownership concerns.
+Facilitates cleanup of arbitrary resources, handling multi-ownership concerns.
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
