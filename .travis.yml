@@ -2,6 +2,8 @@ language: swift
 osx_image: xcode8.2
 
 script:
+  - swift build
+  - swift test
   - xcodebuild -scheme scope build test
 
 after_success:
