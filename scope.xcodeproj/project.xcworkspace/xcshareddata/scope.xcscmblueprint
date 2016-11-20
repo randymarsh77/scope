@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1BA7CC21F4AD436D80C40C4307C9535F5C6C1D15" : 9223372036854775807,
+    "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "60D16815-45AC-4F99-BD82-ADCB92688659",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1BA7CC21F4AD436D80C40C4307C9535F5C6C1D15" : "scope\/Packages\/IDisposable-1.0.1\/",
+    "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176" : "scope\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "scope",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "scope.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/www.github.com\/randymarsh77\/idisposable",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BA7CC21F4AD436D80C40C4307C9535F5C6C1D15"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/scope.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176"
+    }
+  ]
+}

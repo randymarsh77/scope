@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 46;
+    rootObject = __RootObject_;
+    objects = {
+        __RootObject_ = {
+            isa = PBXProject;
+            attributes = {LastUpgradeCheck = 9999;};
+            buildConfigurationList = ___RootConfs_;
+            compatibilityVersion = 'Xcode 3.2';
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (en);
+            mainGroup = ___RootGroup_;
+            productRefGroup = ____Products_;
+            projectDirPath = '';
+            projectRoot = '';
+            targets = (______Target_IDisposable, ______Target_Scope, ______Target_scopeTests);
+        };
+        '__PBXFileRef_Package.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Package.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_DerivedData' = {
+            isa = PBXFileReference;
+            lastKnownFileType = folder;
+            name = 'DerivedData';
+            path = 'DerivedData';
+            sourceTree = '<group>';
+        };
+        ___RootGroup_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Package.swift', _____Configs_, _____Sources_, '__PBXFileRef_DerivedData', Dependencies_, _______Tests_, ____Products_);
+            sourceTree = '<group>';
+        };
+        _______Group_IDisposable = {
+            isa = PBXGroup;
+            name = 'IDisposable';
+            path = 'Packages/IDisposable-1.0.1/Sources/IDisposable';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/IDisposable-1.0.1/Sources/IDisposable/IDisposable.swift');
+        };
+        '__PBXFileRef_Packages/IDisposable-1.0.1/Sources/IDisposable/IDisposable.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'IDisposable.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_IDisposable = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_IDisposable;
+            buildPhases = (CompilePhase_IDisposable, ___LinkPhase_IDisposable);
+            buildRules = ();
+            dependencies = ();
+            name = 'IDisposable';
+            productName = IDisposable;
+            productReference = _____Product_IDisposable;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_IDisposable = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'IDisposable.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_IDisposable = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/IDisposable-1.0.1/Sources/IDisposable/IDisposable.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/IDisposable-1.0.1/Sources/IDisposable/IDisposable.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/IDisposable-1.0.1/Sources/IDisposable/IDisposable.swift';
+        };
+        ___LinkPhase_IDisposable = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_IDisposable = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_IDisposable, _ReleaseConf_IDisposable);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_IDisposable = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Scope.xcodeproj/IDisposable_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'IDisposable'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_IDisposable = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Scope.xcodeproj/IDisposable_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'IDisposable'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_IDisposable = {
+            isa = PBXTargetDependency;
+            target = ______Target_IDisposable;
+        };
+        _______Group_Scope = {
+            isa = PBXGroup;
+            name = 'Scope';
+            path = 'Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/scope.swift');
+        };
+        '__PBXFileRef_Sources/scope.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'scope.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Scope = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Scope;
+            buildPhases = (CompilePhase_Scope, ___LinkPhase_Scope);
+            buildRules = ();
+            dependencies = (__Dependency_IDisposable);
+            name = 'Scope';
+            productName = Scope;
+            productReference = _____Product_Scope;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_Scope = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'Scope.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Scope = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/scope.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/scope.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/scope.swift';
+        };
+        ___LinkPhase_Scope = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_IDisposable_via_Scope);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_IDisposable_via_Scope = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_IDisposable;
+        };
+        _______Confs_Scope = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Scope, _ReleaseConf_Scope);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Scope = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Scope.xcodeproj/Scope_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'Scope'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_Scope = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Scope.xcodeproj/Scope_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'Scope'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_Scope = {
+            isa = PBXTargetDependency;
+            target = ______Target_Scope;
+        };
+        _______Group_scopeTests = {
+            isa = PBXGroup;
+            name = 'scopeTests';
+            path = 'Tests/scopeTests';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Tests/scopeTests/scopeTests.swift');
+        };
+        '__PBXFileRef_Tests/scopeTests/scopeTests.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'scopeTests.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_scopeTests = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_scopeTests;
+            buildPhases = (CompilePhase_scopeTests, ___LinkPhase_scopeTests);
+            buildRules = ();
+            dependencies = (__Dependency_IDisposable);
+            name = 'scopeTests';
+            productName = scopeTests;
+            productReference = _____Product_scopeTests;
+            productType = 'com.apple.product-type.bundle.unit-test';
+        };
+        _____Product_scopeTests = {
+            isa = PBXFileReference;
+            explicitFileType = 'compiled.mach-o.wrapper.cfbundle';
+            path = 'scopeTests.xctest';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_scopeTests = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Tests/scopeTests/scopeTests.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Tests/scopeTests/scopeTests.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Tests/scopeTests/scopeTests.swift';
+        };
+        ___LinkPhase_scopeTests = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_IDisposable_via_scopeTests);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_IDisposable_via_scopeTests = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_IDisposable;
+        };
+        _______Confs_scopeTests = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_scopeTests, _ReleaseConf_scopeTests);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_scopeTests = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '@loader_path/../Frameworks'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Scope.xcodeproj/scopeTests_Info.plist'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; EMBEDDED_CONTENT_CONTAINS_SWIFT = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            name = Debug;
+        };
+        _ReleaseConf_scopeTests = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '@loader_path/../Frameworks'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Scope.xcodeproj/scopeTests_Info.plist'; EMBEDDED_CONTENT_CONTAINS_SWIFT = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            name = Release;
+        };
+        __Dependency_scopeTests = {
+            isa = PBXTargetDependency;
+            target = ______Target_scopeTests;
+        };
+        '__PBXFileRef_Scope.xcodeproj/Configs/Project.xcconfig' = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.xcconfig;
+            path = 'Scope.xcodeproj/Configs/Project.xcconfig';
+            sourceTree = '<group>';
+        };
+        _____Configs_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Scope.xcodeproj/Configs/Project.xcconfig');
+            name = Configs;
+            sourceTree = '<group>';
+        };
+        _____Sources_ = {
+            isa = PBXGroup;
+            children = (_______Group_IDisposable, _______Group_Scope);
+            name = Sources;
+            sourceTree = '<group>';
+        };
+        Dependencies_ = {
+            isa = PBXGroup;
+            children = (_______Group_IDisposable);
+            name = Dependencies;
+            sourceTree = '<group>';
+        };
+        _______Tests_ = {
+            isa = PBXGroup;
+            children = (_______Group_scopeTests);
+            name = Tests;
+            sourceTree = '<group>';
+        };
+       TestProducts_ = {
+            isa = PBXGroup;
+            children = (_____Product_scopeTests);
+            name = Tests;
+            sourceTree = '<group>';
+        };
+        ____Products_ = {
+            isa = PBXGroup;
+            children = (TestProducts_, _____Product_IDisposable, _____Product_Scope);
+            name = Products;
+            sourceTree = '<group>';
+        };
+        _______Debug_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_Scope.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Debug;
+        };
+        _____Release_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_Scope.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Release;
+        };
+        ___RootConfs_ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (_______Debug_, _____Release_);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+    };
+}
