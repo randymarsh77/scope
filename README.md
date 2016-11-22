@@ -6,6 +6,8 @@ Facilitates cleanup of arbitrary resources, handling multi-ownership concerns.
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Build Status](https://api.travis-ci.org/randymarsh77/scope.svg?branch=master)](https://travis-ci.org/randymarsh77/scope)
 [![codecov.io](https://codecov.io/gh/randymarsh77/scope/branch/master/graphs/badge.svg)](https://codecov.io/gh/randymarsh77/scope/branch/master)
+[![codebeat badge](https://codebeat.co/badges/2571371c-3b3b-4304-b4df-4f04384dcd5c)](https://codebeat.co/projects/github-com-randymarsh77-scope)
+
 
 ## Usage
 
