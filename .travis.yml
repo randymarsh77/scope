@@ -11,5 +11,7 @@ script:
   - xcodebuild -scheme scope build test
 
 after_success:
-  - swiftx update-build-config --owner randymarsh77 --configPath builds/swift/config
   - bash <(curl -s https://codecov.io/bash)
+  - swiftx update-build-config --owner randymarsh77 --configPath builds/swift/config
+  - swiftx update-dependency-graph --owner randymarsh77 --configPath builds/swift/config
+  - swiftx trigger-downstream-builds --owner randymarsh77 --configPath builds/swift/config
