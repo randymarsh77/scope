@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_IDisposable"
+               BlueprintIdentifier = "OBJ_20"
                BuildableName = "IDisposable.framework"
                BlueprintName = "IDisposable"
                ReferencedContainer = "container:scope.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Scope"
+               BlueprintIdentifier = "OBJ_27"
                BuildableName = "Scope.framework"
                BlueprintName = "Scope"
                ReferencedContainer = "container:scope.xcodeproj">
@@ -40,14 +40,13 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_scopeTests"
+               BlueprintIdentifier = "OBJ_36"
                BuildableName = "scopeTests.xctest"
                BlueprintName = "scopeTests"
                ReferencedContainer = "container:scope.xcodeproj">
@@ -70,7 +69,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "______Target_IDisposable"
+            BlueprintIdentifier = "OBJ_20"
             BuildableName = "IDisposable.framework"
             BlueprintName = "IDisposable"
             ReferencedContainer = "container:scope.xcodeproj">

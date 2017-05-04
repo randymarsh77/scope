@@ -1,8 +1,7 @@
 import XCTest
 @testable import Scope
 
-class ScopeTests: XCTestCase
-{
+class ScopeTests: XCTestCase {
 	// Dispose should nil the callback
     func testDisposeCleanup() {
 		let scope = Scope {}
