@@ -1,7 +1,7 @@
 import XCTest
 @testable import Scope
 
-class scopeTests: XCTestCase
+class ScopeTests: XCTestCase
 {
 	// Dispose should nil the callback
     func testDisposeCleanup() {
@@ -22,7 +22,8 @@ class scopeTests: XCTestCase
 		XCTAssertEqual(x, 1, "Multiple Dispose should be safe, but a noop")
 	}
 
-	// Transfer should create a new scope with the same callback, leaving the original scope without a callback
+	// Transfer should create a new scope with the same callback,
+	// leaving the original scope without a callback
 	func testTransfer() {
 		var x = 0
 		let scope = Scope {
