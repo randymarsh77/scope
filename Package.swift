@@ -6,14 +6,21 @@ let package = Package(
 	products: [
 		.library(
 			name: "Scope",
-			targets: ["Scope"]),
+			targets: ["Scope"]
+		),
 	],
 	dependencies: [
-		.package(url: "https://github.com/randymarsh77/idisposable", .branch("master")),
+		.package(url: "https://github.com/randymarsh77/idisposable", .branch("master")
+		),
 	],
 	targets: [
 		.target(
 			name: "Scope",
-			dependencies: ["IDisposable"]),
+			dependencies: ["IDisposable"]
+		),
+		.testTarget(
+			name: "ScopeTests",
+			dependencies: ["Scope"]
+		),
 	]
 )
