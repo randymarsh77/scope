@@ -13,9 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-       - name: Build and Test
+      - name: Build and Test
         run: swift test
-      
+
       - name: Code Cov
         if: github.ref == 'refs/heads/master'
         run: bash <(curl -s https://codecov.io/bash)
