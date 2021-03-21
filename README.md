@@ -5,7 +5,7 @@ Facilitates cleanup of arbitrary resources, handling multi-ownership concerns.
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![GitHub release](https://img.shields.io/github/release/randymarsh77/scope.svg)]()
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
-[![CI](https://github.com/randymarsh77/streams/workflows/CI/badge.svg)](https://github.com/randymarsh77/streams/actions?query=workflow%3ACI)
+[![CI](https://github.com/randymarsh77/scope/workflows/CI/badge.svg)](https://github.com/randymarsh77/scope/actions?query=workflow%3ACI)
 [![codecov.io](https://codecov.io/gh/randymarsh77/scope/branch/master/graphs/badge.svg)](https://codecov.io/gh/randymarsh77/scope/branch/master)
 [![codebeat badge](https://codebeat.co/badges/2571371c-3b3b-4304-b4df-4f04384dcd5c)](https://codebeat.co/projects/github-com-randymarsh77-scope)
 
