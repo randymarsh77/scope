@@ -13,8 +13,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Build
-        run: swift build
+       - name: Build and Test
+        run: swift test
+      
+      - name: Code Cov
+        if: github.ref == 'refs/heads/master'
+        run: bash <(curl -s https://codecov.io/bash)
 
   linux:
     runs-on: ubuntu-latest
@@ -25,5 +29,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Build
-        run: swift build
+      - name: Build and Test
+        run: swift test --enable-test-discovery
