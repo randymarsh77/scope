@@ -1,9 +1,9 @@
 import IDisposable
 
-public typealias DisposeFunc = () -> ()
+public typealias DisposeFunc = () -> Void
 
 public class Scope: IDisposable {
-	var disposeFunc: DisposeFunc? = nil
+	var disposeFunc: DisposeFunc?
 
 	public init(dispose: DisposeFunc?) {
 		disposeFunc = dispose
