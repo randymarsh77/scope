@@ -27,7 +27,7 @@ jobs:
 
       - name: Prepare coverage report
         if: github.ref == 'refs/heads/master'
-        run: xcrun llvm-cov export -format="lcov" .build/debug/$PACKAGE_NAMEPackageTests.xctest/Contents/MacOS/$PACKAGE_NAMEPackageTests -instr-profile .build/debug/codecov/default.profdata > macos-arm64.lcov
+        run: xcrun llvm-cov export -format="lcov" .build/debug/${{ env.PACKAGE_NAME }}PackageTests.xctest/Contents/MacOS/${{ env.PACKAGE_NAME }}PackageTests -instr-profile .build/debug/codecov/default.profdata > macos-arm64.lcov
 
       - name: Cache coverage report
         if: github.ref == 'refs/heads/master'
@@ -53,7 +53,7 @@ jobs:
 
       - name: Prepare coverage report
         if: github.ref == 'refs/heads/master'
-        run: xcrun llvm-cov export -format="lcov" .build/debug/$PACKAGE_NAMEPackageTests.xctest/Contents/MacOS/$PACKAGE_NAMEPackageTests -instr-profile .build/debug/codecov/default.profdata > macos-x64.lcov
+        run: xcrun llvm-cov export -format="lcov" .build/debug/${{ env.PACKAGE_NAME }}PackageTests.xctest/Contents/MacOS/${{ env.PACKAGE_NAME }}PackageTests -instr-profile .build/debug/codecov/default.profdata > macos-x64.lcov
 
       - name: Cache coverage report
         if: github.ref == 'refs/heads/master'
@@ -82,7 +82,7 @@ jobs:
 
       - name: Prepare coverage report
         if: github.ref == 'refs/heads/master'
-        run: $(dirname $(realpath $(which swift)))/llvm-cov export -format="lcov" .build/debug/$PACKAGE_NAMEPackageTests.xctest -instr-profile .build/debug/codecov/default.profdata > linux.lcov
+        run: $(dirname $(realpath $(which swift)))/llvm-cov export -format="lcov" .build/debug/${{ env.PACKAGE_NAME }}PackageTests.xctest -instr-profile .build/debug/codecov/default.profdata > linux.lcov
 
       - name: Cache coverage report
         if: github.ref == 'refs/heads/master'
