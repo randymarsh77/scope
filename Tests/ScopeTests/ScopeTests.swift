@@ -1,13 +1,14 @@
 import XCTest
+
 @testable import Scope
 
 class ScopeTests: XCTestCase {
 	// Dispose should nil the callback
-    func testDisposeCleanup() {
+	func testDisposeCleanup() {
 		let scope = Scope {}
 		scope.dispose()
-        XCTAssertNil(scope.disposeFunc)
-    }
+		XCTAssertNil(scope.disposeFunc)
+	}
 
 	// Dispose should call the callback
 	func testDispose() {

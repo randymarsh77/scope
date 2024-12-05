@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
@@ -7,16 +7,18 @@ let package = Package(
 		.library(
 			name: "Scope",
 			targets: ["Scope"]
-		),
+		)
 	],
 	dependencies: [
-		.package(url: "https://github.com/randymarsh77/idisposable", .branch("master")
-		),
+		.package(
+			url: "https://github.com/randymarsh77/idisposable",
+			branch: "master"
+		)
 	],
 	targets: [
 		.target(
 			name: "Scope",
-			dependencies: ["IDisposable"]
+			dependencies: [.product(name: "IDisposable", package: "IDisposable")]
 		),
 		.testTarget(
 			name: "ScopeTests",
