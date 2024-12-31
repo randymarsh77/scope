@@ -1,5 +1,5 @@
 {
-  "originHash" : "5fe7cb703c4d0079308526ce87572935f85fdf61832e3f5ce3b155d9f036f842",
+  "originHash" : "4bef6e3970848777a5225a1cc77476bf5304c0d37fb2eb150910d7a41f14d1e5",
   "pins" : [
     {
       "identity" : "idisposable",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/randymarsh77/idisposable",
       "state" : {
         "branch" : "master",
-        "revision" : "fc259ea73b73ef5f84d7c10258961a9b75074078"
+        "revision" : "768542b13317f12238d7ccdcbde3110cf0ecbb32"
       }
     }
   ],
